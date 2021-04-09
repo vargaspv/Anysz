@@ -1,0 +1,32 @@
+{
+    "name": "Anysz2",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "next",
+        "build": "webpack --watch",
+        "start": "next start -p $PORT",
+        "heroku-postbuild": "npm run build"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "clip-path": "^1.2.0",
+        "framer-motion": "^3.9.0",
+        "hover-effect": "^1.1.0",
+        "next": "^10.0.7",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "reactstrap": "^8.9.0",
+        "sass": "^1.32.8",
+        "webpack": "^5.24.2",
+        "webpack-cli": "^4.5.0"
+    },
+    "devDependencies": {
+        "css-loader": "^5.1.0",
+        "sass-loader": "^11.0.1",
+        "style-loader": "^2.0.0"
+    }
+}
