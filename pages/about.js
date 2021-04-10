@@ -5,7 +5,8 @@ import RRSS from "../components/RRSS";
 import { motion } from 'framer-motion';
 
 
-// const transition = { duration: 0.6, ease: [0.43, 0.13, .023, 0.96]};
+const transition = { duration: 0.6, ease: [0.43, 0.13, .023, 0.96]};
+//const color = rgb(73, 73, 73);
 
 const About = props => {
     return (
@@ -15,9 +16,11 @@ const About = props => {
                 <div className= 'imgs-container'>
                         <Link href='/yoga'>    
                             <a>
-                                <img
+                                <motion.img
                                 src="/yoga.jpg"
                                 className="image"
+                                whileHover={{scale: 1}}
+                                animate={{scale: 1.1, transition: transition}}
                                 />
                             </a>
                         </Link>
@@ -26,6 +29,8 @@ const About = props => {
                                 <motion.img
                                 src="/salsa.jpg"
                                 className="image"
+                                whileHover={{scale: 1}}
+                                animate={{scale: 1.1, transition: transition}}
                                 />
                             </a>
                         </Link>
@@ -34,7 +39,8 @@ const About = props => {
                                 <motion.img
                                 src="/zumba.jpg"
                                 className="image"
-                                href="../public/salsa.jpg"
+                                whileHover={{scale: 1}}
+                                animate={{scale: 1.1, transition: transition}}
                                 />
                             </a>
                         </Link>
