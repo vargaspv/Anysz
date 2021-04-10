@@ -40,11 +40,6 @@ const Navbar = () => (
                         <a>Sobre Mi</a>
                     </Link>
                 </li>
-                <li>
-                    <Link href="/contactos">
-                        <a>Contactos</a>
-                    </Link>
-                </li>
             </ul>
         </div>
     </motion.nav>

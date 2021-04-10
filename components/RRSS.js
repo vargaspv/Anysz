@@ -8,7 +8,7 @@ const RRSS = () => (
     animate={{ y: 0, opacity: 1 }}
     transition={{ delay: 1 }}
     >
-        <p>Para ver mis coreos de Zumba y Bailar conmigo... </p>
+        <p>Podes contactarme en mis redes... </p>
         <ul>
             <motion.div 
             initial={{ y: 200, opacity: 0 }}
