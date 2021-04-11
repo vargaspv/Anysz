@@ -130,6 +130,9 @@ body {
 .about__container {
     height: 100vh;
     .about__title {
+        display: flex;
+        justify-content: center;
+        margin: 80px 0 30px 0;
         font-size: 3rem;
     }
     .about_container--in {
@@ -156,17 +159,11 @@ body {
     }
 }
 
-.product_title {
-    display: flex;
-    justify-content: center;
-    margin: 80px auto;
-}
-
 .product_container {
     width: 60%;
     display: flex;
     justify-content: space-between;
-    margin: 0 auto;
+    margin: 10% auto;
     padding: 10px;
     background: #f0f0f0;
     .product_image {
@@ -174,13 +171,22 @@ body {
         height: 500px;
         object-fit: cover;
         border-radius: 20px;
+        margin: 10% auto;
     }
-    .product_text {
-        font-size: 1.5rem;
-        margin: auto 80px;
-        a {
-            color: red;
-            text-decoration: none;
+    .product_container-right {
+        margin: 0 auto;
+        .product_title {
+            display: flex;
+            justify-content: center;
+            margin: 7% auto;
+        }
+        .product_text {
+            font-size: 1.3rem;
+            margin: auto 80px;
+            a {
+                color: red;
+                text-decoration: none;
+            }
         }
     }
 }
@@ -196,12 +202,25 @@ body {
         display: flex;
         justify-content: space-around;
         gap: 16px;
-        margin: 20px auto;
+        margin: 80px auto;
         .image {
-            width: 500px;
-            height: 500px;
+            width: 450px;
+            height: 450px;
             object-fit: cover;
             border-radius: 20px;
+        }
+        .image:hover {
+            background: $bg-gray;
+            h3 {
+                text-align: center;
+                color: $white;
+                font-size: 30px;
+                transform: scale(50px);
+            }
+            p {
+                display: block;
+                transition: 1s all ease-in;
+            }
         }
     }
     .services__container--bg {
@@ -241,19 +260,6 @@ body {
             p {
                 display: none;
                 font-family: 'Courier New', Courier, monospace;
-            }
-        }
-        .services__box:hover {
-            background: $bg-gray;
-            h3 {
-                text-align: center;
-                color: $white;
-                font-size: 30px;
-                transform: scale(50px);
-            }
-            p {
-                display: block;
-                transition: 1s all ease-in;
             }
         }
     }
