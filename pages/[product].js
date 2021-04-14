@@ -16,7 +16,7 @@ export default function Product() {
             layoutId="header" 
             className="product_title"
             >{product}</motion.h1>
-                <Link href="/about">
+                <Link href="/services">
                     <motion.div className= 'product_container'>
                             <a>
                                 <motion.img

@@ -1,6 +1,7 @@
 import React from 'react';
 import Layout from '../components/Layout';
 import RRSS from '../components/RRSS';
+import Footer from '../components/Footer';
 
 import { motion } from 'framer-motion';
 
@@ -25,9 +26,10 @@ const Index = () => (
                             <p>...transmitirte algo de paz mental y conexión con el propio ser...</p>
                     </motion.div>
                         <div className="index__container--bg"></div>
-                        <img src="/img_07.jpg" className="index__img" />
+                        <img src="/img_08.jpg" className="index__img" />
                         
                 </div>
+                <Footer/>
             </Layout>
 )
 

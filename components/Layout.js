@@ -22,7 +22,6 @@ const Layout = ({ children }) => (
         <main className="container">
             {children}
         </main>
-        <Footer/>
     </>
 )
 

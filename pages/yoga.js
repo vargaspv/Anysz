@@ -8,7 +8,7 @@ export default function Yoga() {
     return (
         <Layout>
                 <motion.div className= 'product_container'>
-                    <Link href="/about">
+                    <Link href="/services">
                         <a>
                             <motion.img
                                 className="product_image"

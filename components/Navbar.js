@@ -31,12 +31,12 @@ const Navbar = () => (
         <div className="nav__izq">
             <ul>
                 <li>
-                    <Link href="/about">
+                    <Link href="/services">
                         <a>Servicios</a>
                     </Link>
                 </li>
                 <li>
-                    <Link href="/services">
+                    <Link href="/about">
                         <a>Sobre Mi</a>
                     </Link>
                 </li>
