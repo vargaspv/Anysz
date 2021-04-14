@@ -9,11 +9,6 @@ class MyDocument extends Document {
   render() {
     return (
       <Html>
-        <Head>
-            <meta name="description" content="Ana Luisa Vargas, simple web de presentacion."></meta>
-            <link rel="icon" href="/logo.png"   />
-            <title>Anysz</title>
-        </Head>
         <body>
           <Main />
           <NextScript />
