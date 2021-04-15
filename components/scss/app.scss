@@ -111,13 +111,19 @@
                     top: 100px;
                     width: 95%;
                     font-size: 15rem;
+                    color: rgb(255, 255, 255);
                 }
                 p {
                     top: 600px;
                     right: -480px;
+                    color: rgb(226, 226, 226);
                 }
                 .index__container--bg {
-                    display: none;
+                    display: block;
+                    height: 1530px;
+                    position: absolute;
+                    top: 0;
+                    right: -500px;
                 }
                 .index__img {
                     position: fixed;
@@ -151,6 +157,7 @@
                 p {
                     width: 550px;
                     text-align: center;
+                    color: rgb(226, 226, 226);
                 }
                 ul {
                     .rrss__container {
@@ -195,9 +202,10 @@
             .footer {
                 width: 800px;
                 position: absolute;
-                bottom: -800px;
+                bottom: -850px;
                 left: 30px;
                 text-align: center;
+                color: rgba(99, 99, 99, 0.733);
                 .footer__container {
                     font-size: 30px;
                 }
