@@ -22,7 +22,11 @@ const RRSS = () => (
                         <a target="_blank">Instagram</a>
                     </Link>
                 </li>
-                <FontAwesomeIcon icon={faInstagram} className="icon"></FontAwesomeIcon>
+                <Link href="https://www.instagram.com/anyluisavargas/">
+                    <a target="_blank">
+                        <FontAwesomeIcon icon={faInstagram} className="icon"></FontAwesomeIcon>
+                    </a>
+                </Link>
             </motion.div>
             <motion.div
             initial={{ y: 200, opacity: 0 }}
@@ -35,7 +39,11 @@ const RRSS = () => (
                         <a target="_blank">Facebook</a>
                     </Link>
                 </li>
-                <FontAwesomeIcon icon={faFacebook} className="icon"></FontAwesomeIcon>
+                <Link  href="https://www.facebook.com/analuisa.vargas">
+                    <a target="_blank">
+                        <FontAwesomeIcon icon={faFacebook} className="icon"></FontAwesomeIcon>
+                    </a>
+                </Link>
             </motion.div>
             
             <motion.div
@@ -49,7 +57,11 @@ const RRSS = () => (
                         <a target="_blank">Youtube</a>
                     </Link>
                 </li>
-                <FontAwesomeIcon icon={faYoutube} className="icon"></FontAwesomeIcon>
+                <Link href="https://www.youtube.com/channel/UC3nvMwNxv0g2SX-Y1oIvtrA">
+                    <a target="_blank">
+                        <FontAwesomeIcon icon={faYoutube} className="icon"></FontAwesomeIcon>
+                    </a>
+                </Link>
             </motion.div>
         </ul>
     </motion.div>
