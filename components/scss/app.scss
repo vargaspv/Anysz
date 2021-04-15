@@ -148,6 +148,23 @@
             .rrss {
                 position: absolute;
                 bottom: -600px;
+                p {
+                    width: 550px;
+                    text-align: center;
+                }
+                ul {
+                    .rrss__container {
+                        margin: 40px auto;
+                        li {
+                            display: none;
+                        }
+                        .icon {
+                            display: block;
+                            font-size: 5rem;
+                            color: $bg-grayBold;
+                        }
+                    }
+                }
             }
             .product_container {
                 display: block;
@@ -176,9 +193,10 @@
                 }
             }
             .footer {
+                width: 800px;
                 position: absolute;
-                bottom: -850px;
-                left: 300px;
+                bottom: -800px;
+                left: 30px;
                 text-align: center;
                 .footer__container {
                     font-size: 30px;
@@ -245,19 +263,24 @@
         ul {
             display: flex;
             list-style: none;
-            li {
-                margin: 10px;
-                padding: 0 30px;
-            }
-            a {
-                text-decoration: none;
-                letter-spacing: .8rem;
-                color: rgb(73, 73, 73);
-                font-weight: bold;
-            }
-            li:hover {
-                background: $bg-grayBold;
-                transition: 1;
+            .rrss__container {
+                li {
+                    margin: 10px;
+                    padding: 0 30px;
+                    a {
+                        text-decoration: none;
+                        letter-spacing: .8rem;
+                        color: rgb(73, 73, 73);
+                        font-weight: bold;
+                    }
+                }
+                .icon {
+                    display: none;
+                }
+                li:hover {
+                    background: $bg-grayBold;
+                    transition: 1;
+                }
             }
         }
     }
