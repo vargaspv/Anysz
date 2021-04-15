@@ -102,6 +102,7 @@
         body {
             overflow: scroll;
             height: 100%;
+            width: 100%;
             .nav {
                 display: none;
             }
@@ -114,9 +115,9 @@
                     color: rgb(61, 61, 61);
                 }
                 p {
-                    top: 450px;
-                    right: -430px;
-                    color: rgb(61, 61, 61);
+                    top: 550px;
+                    right: -400px;
+                    color: rgb(226, 226, 226);
                     text-align: center;
                 }
                 .index__container--bg {
