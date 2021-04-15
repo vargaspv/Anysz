@@ -23,7 +23,7 @@ const Index = () => (
                         animate={{ opacity: 1 }}
                         transition={{ delay: 1.5 }}
                         >
-                            <p>...transmitirte algo de paz mental y conexión con el propio ser...</p>
+                            <p>...transmitirte algo de paz mental y conexión con tu propio ser...</p>
                     </motion.div>
                         <div className="index__container--bg"></div>
                         <img src="/img_08.jpg" className="index__img" />

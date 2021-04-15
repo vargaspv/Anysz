@@ -1,16 +1,5 @@
-    @import url('https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-    // variables
-    $black: #3d3d3d;
-    $white: #d3d3d3;
-    $bg-gray: #fb9da64f;
-    $bg-grayBold: #fb9da6;
-    $f-zilla: 'Zilla Slab Highlight',
-    cursive;
-    $f-lobster: 'Lobster',
-    cursive;
-    $cel: 300px;
-    $tablet: 600px;
+    @import "_variables";
+    @import "_media";
     body {
         background: $bg-gray;
         color: $black;
@@ -98,167 +87,6 @@
         }
     }
     
-    @media (min-width: $cel) and (max-width: $tablet) {
-        body {
-            overflow: scroll;
-            height: 100%;
-            width: 100%;
-            .nav {
-                display: none;
-            }
-            .index__container {
-                .index__title {
-                    position: absolute;
-                    top: 100px;
-                    width: 75%;
-                    font-size: 15rem;
-                    color: rgb(61, 61, 61);
-                }
-                p {
-                    top: 550px;
-                    right: -400px;
-                    color: rgb(226, 226, 226);
-                    text-align: center;
-                }
-                .index__container--bg {
-                    display: none;
-                    height: 1530px;
-                    position: absolute;
-                    top: 0;
-                    right: -500px;
-                }
-                .index__img {
-                    position: fixed;
-                    top: 0;
-                    height: 100%;
-                    object-fit: cover;
-                }
-            }
-            .services__container {
-                .services__title {
-                    font-size: 26px;
-                    margin: 30px auto;
-                    width: 130%;
-                }
-                .imgs-container {
-                    display: block;
-                    position: absolute;
-                    left: 25px;
-                    align-items: center;
-                    .image {
-                        margin: 50px auto;
-                        overflow: fixed;
-                    }
-                }
-                .rrss {
-                    display: none;
-                }
-            }
-            .rrss {
-                position: absolute;
-                bottom: -600px;
-                p {
-                    width: 550px;
-                    text-align: center;
-                    color: rgb(226, 226, 226);
-                }
-                ul {
-                    .rrss__container {
-                        margin: 40px auto;
-                        li {
-                            display: none;
-                        }
-                        .icon {
-                            display: block;
-                            font-size: 5rem;
-                            color: $bg-grayBold;
-                        }
-                    }
-                }
-            }
-            .product_container {
-                display: block;
-                position: absolute;
-                left: 5px;
-                display: block;
-                width: 600px;
-                .product_image {
-                    width: 100%;
-                }
-                .product_container-right {
-                    width: 100%;
-                    .product_title {
-                        margin: 0 0 20px;
-                    }
-                    .product_text {
-                        font-size: 26px;
-                        text-align: center;
-                    }
-                }
-                .rrss {
-                    display: none;
-                }
-                .footer {
-                    display: none;
-                }
-            }
-            .footer {
-                width: 800px;
-                position: absolute;
-                bottom: -800px;
-                left: 30px;
-                text-align: center;
-                color: rgba(99, 99, 99, 0.733);
-                .footer__container {
-                    font-size: 30px;
-                }
-            }
-        }
-    }
-    
-    // @media (max-width: $tablet) {
-    //     body {
-    //         overflow: scroll;
-    //         .nav {
-    //             display: none;
-    //         }
-    //         .index__container {
-    //             width: 100%;
-    //             .index__title {
-    //                 position: absolute;
-    //                 top: 100px;
-    //                 width: 55%;
-    //                 font-size: 15rem;
-    //             }
-    //             p {
-    //                 text-align: center;
-    //                 top: 400px;
-    //                 right: 100px;
-    //             }
-    //             .index__container--bg {
-    //                 display: none;
-    //             }
-    //             .index__img {
-    //                 position: fixed;
-    //                 top: 0;
-    //                 left: 0;
-    //                 object-fit: cover;
-    //             }
-    //         }
-    //         .rrss {
-    //             position: absolute;
-    //             top: 2000px;
-    //         }
-    //         .footer {
-    //             position: absolute;
-    //             top: 90%;
-    //             left: 50px;
-    //             .footer__container {
-    //                 font-size: 20px;
-    //             }
-    //         }
-    //     }
-    // }
     .rrss {
         color: red;
         z-index: 99;
@@ -444,14 +272,14 @@
         position: absolute;
         height: 80px;
         width: 100%;
-        bottom: -20px;
+        bottom: -40px;
         margin: 0;
         padding: 0;
         .footer__container {
             display: flex;
             justify-content: center;
             align-items: center;
-            font-size: 15px;
+            font-size: .7rem;
             a {
                 color: #000;
                 text-decoration: none;
