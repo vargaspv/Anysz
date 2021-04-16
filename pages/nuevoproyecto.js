@@ -13,7 +13,7 @@ export default function Nuevoproyecto() {
                     <a>
                         <motion.img
                             className="product_image"
-                            src="/zumba.jpg"
+                            src="/newPro.jpg"
                             initial={{scale: 0, x: -2000}}
                             animate={{scale: 1, transition: transition, x: 0}}
                             />

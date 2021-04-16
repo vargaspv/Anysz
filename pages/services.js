@@ -40,7 +40,7 @@ const About = props => {
                         <Link href='/nuevoproyecto'>    
                             <a>
                                 <motion.img
-                                src="/zumba.jpg"
+                                src="/newPro.jpg"
                                 className="image"
                                 whileHover={{scale: 1}}
                                 animate={{scale: 1.1, transition: transition}}
