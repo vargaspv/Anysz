@@ -1,4 +1,4 @@
-@media (max-width: $tablet) {
+@media (max-width: $desktop) {
     body {
         height: 100%;
         width: 100%;
@@ -88,31 +88,6 @@
                 bottom: 0;
             }
         }
-        .rrss {
-            position: absolute;
-            top: 60%;
-            left: 10%;
-            width: 80%;
-            p {
-                width: 80%;
-                text-align: center;
-                color: rgb(226, 226, 226);
-                font-size: 1.3rem;
-            }
-            ul {
-                .rrss__container {
-                    margin: 5% auto;
-                    li {
-                        display: none;
-                    }
-                    .icon {
-                        display: block;
-                        font-size: 1.8rem;
-                        color: $bg-grayBold;
-                    }
-                }
-            }
-        }
         .product_container {
             display: block;
             position: absolute;
@@ -137,6 +112,31 @@
             }
             .footer {
                 display: none;
+            }
+        }
+        .rrss {
+            position: absolute;
+            bottom: 8%;
+            left: 10%;
+            width: 80%;
+            p {
+                width: 80%;
+                text-align: center;
+                color: rgb(226, 226, 226);
+                font-size: 1.3rem;
+            }
+            ul {
+                .rrss__container {
+                    margin: 5% auto;
+                    li {
+                        display: none;
+                    }
+                    .icon {
+                        display: block;
+                        font-size: 1.8rem;
+                        color: $bg-grayBold;
+                    }
+                }
             }
         }
         .footer {
