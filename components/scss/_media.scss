@@ -6,6 +6,9 @@
             display: none;
             .nav__icon {
                 display: block;
+                position: absolute;
+                top: 1%;
+                color: black;
             }
         }
         .index__container {
@@ -115,19 +118,20 @@
             }
         }
         .rrss {
+            width: 80%;
             position: absolute;
             bottom: 8%;
             left: 10%;
-            width: 80%;
             p {
-                width: 80%;
+                width: 100%;
                 text-align: center;
                 color: rgb(226, 226, 226);
                 font-size: 1.3rem;
             }
             ul {
+                padding: 0;
                 .rrss__container {
-                    margin: 5% auto;
+                    margin: 0 auto;
                     li {
                         display: none;
                     }
@@ -135,6 +139,8 @@
                         display: block;
                         font-size: 1.8rem;
                         color: $bg-grayBold;
+                        width: 100%;
+                        text-align: center;
                     }
                 }
             }
