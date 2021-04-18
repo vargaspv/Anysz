@@ -6,14 +6,14 @@ import { faFacebook, faInstagram, faYoutube } from '@fortawesome/free-brands-svg
 const RRSS = () => (
 <>    
     <motion.div className="rrss"
-    initial={{ y: 200, opacity: 0 }}
+    initial={{ y: 5, opacity: 0 }}
     animate={{ y: 0, opacity: 1 }}
     transition={{ delay: 1 }}
     >
         <p>Podes contactarme en mis redes... </p>
         <ul>
             <motion.div 
-            initial={{ y: 200, opacity: 0 }}
+            initial={{ y: -200, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 1 }}
             className="rrss__container">
@@ -29,7 +29,7 @@ const RRSS = () => (
                 </Link>
             </motion.div>
             <motion.div
-            initial={{ y: 200, opacity: 0 }}
+            initial={{ y: -200, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 1.2 }}
             className="rrss__container"
@@ -47,7 +47,7 @@ const RRSS = () => (
             </motion.div>
             
             <motion.div
-            initial={{ y: 200, opacity: 0 }}
+            initial={{ y: -200, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: .8 }}
             className="rrss__container"

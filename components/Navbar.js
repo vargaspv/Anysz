@@ -1,5 +1,7 @@
 import Link from 'next/link';
 import { motion } from 'framer-motion';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 const easing = [0.6, -0.05, 0.01, 0.99];
 const variants = {
@@ -18,31 +20,36 @@ const variants = {
 };
 
 const Navbar = () => (
-    <motion.nav className="nav"
-        exit={{ opacity: 0 }}
-        initial="hidden"
-        animate="visible"
-        variants={variants}>
-        <div>
-            <Link href="/">
-                <a>Anysz</a>
-            </Link>
-        </div>
-        <div className="nav__izq">
-            <ul>
-                <li>
-                    <Link href="/services">
-                        <a>Servicios</a>
-                    </Link>
-                </li>
-                <li>
-                    <Link href="/about">
-                        <a>Sobre Mi</a>
-                    </Link>
-                </li>
-            </ul>
-        </div>
-    </motion.nav>
+    <>
+        <motion.nav className="nav"
+            exit={{ opacity: 0 }}
+            initial="hidden"
+            animate="visible"
+            variants={variants}>
+            <div>
+                <Link href="/">
+                    <a>Anysz</a>
+                </Link>
+            </div>
+            <div className="nav__izq">
+                <ul>
+                    <li>
+                        <Link href="/services">
+                            <a>Servicios</a>
+                        </Link>
+                    </li>
+                    <li>
+                        <Link href="/about">
+                            <a>Sobre Mi</a>
+                        </Link>
+                    </li>
+                </ul>
+            </div>
+            <nav className="nav__icon">
+                <FontAwesomeIcon icon={faBars} className="icon"></FontAwesomeIcon>
+            </nav>
+        </motion.nav>
+    </>
 )
 
 export default Navbar;

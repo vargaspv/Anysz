@@ -1,36 +1,38 @@
-@media (min-width: $cel) and (max-width: $tablet) {
+@media (max-width: $tablet) {
     body {
-        overflow: scroll;
         height: 100%;
         width: 100%;
         .nav {
             display: none;
+            .nav__icon {
+                display: block;
+            }
         }
         .index__container {
             .index__title {
                 position: absolute;
-                top: 100px;
-                width: 75%;
-                font-size: 15rem;
+                top: 8%;
+                left: 10%;
+                width: 80%;
+                font-size: 5rem;
                 color: rgb(61, 61, 61);
             }
             p {
-                top: 550px;
-                right: -400px;
-                color: rgb(226, 226, 226);
+                top: 25%;
+                left: 10%;
+                width: 80%;
+                color: rgb(56, 56, 56);
                 text-align: center;
+                font-size: 1.3rem;
             }
             .index__container--bg {
                 display: none;
-                height: 1530px;
-                position: absolute;
-                top: 0;
-                right: -500px;
             }
             .index__img {
                 position: fixed;
                 top: 0;
                 height: 100%;
+                width: 150%;
                 object-fit: cover;
             }
         }
@@ -54,23 +56,58 @@
                 display: none;
             }
         }
+        .about__container {
+            overflow-y: scroll;
+            scroll-behavior: auto;
+            width: 285%;
+            height: 3000px;
+            margin: 100px 0 0 0;
+            .about__title {
+                font-size: 26px;
+                margin: 10px;
+            }
+            .about_container--in {
+                display: block;
+                width: 90%;
+                height: 60%;
+                margin: 0 auto;
+                .about_image {
+                    width: 100%;
+                    height: 800px;
+                }
+                .about_text {
+                    font-size: 1.7rem;
+                }
+            }
+            .rrss {
+                position: absolute;
+                bottom: -1500px;
+            }
+            .footer {
+                position: absolute;
+                bottom: 0;
+            }
+        }
         .rrss {
             position: absolute;
-            bottom: -600px;
+            top: 60%;
+            left: 10%;
+            width: 80%;
             p {
-                width: 550px;
+                width: 80%;
                 text-align: center;
                 color: rgb(226, 226, 226);
+                font-size: 1.3rem;
             }
             ul {
                 .rrss__container {
-                    margin: 40px auto;
+                    margin: 5% auto;
                     li {
                         display: none;
                     }
                     .icon {
                         display: block;
-                        font-size: 5rem;
+                        font-size: 1.8rem;
                         color: $bg-grayBold;
                     }
                 }
@@ -103,14 +140,14 @@
             }
         }
         .footer {
-            width: 800px;
             position: absolute;
-            bottom: -800px;
-            left: 30px;
+            bottom: 1%;
+            left: 10%;
+            width: 80%;
             text-align: center;
             color: rgba(99, 99, 99, 0.733);
             .footer__container {
-                font-size: 30px;
+                font-size: .5;
             }
         }
     }
@@ -183,7 +220,7 @@
         }
         .services__container {
             .services__title {
-                margin: 20px 0 0;
+                margin: 10px 0 0;
                 font-size: 2rem;
             }
             .imgs-container {
@@ -196,7 +233,7 @@
             }
         }
         .about__container {
-            margin: 50px;
+            margin: 10px 0 0 0;
             .about__title {
                 font-size: 1.8rem;
                 margin: 10px;
@@ -208,7 +245,7 @@
                     height: 100%;
                 }
                 .about_text {
-                    font-size: .9rem;
+                    font-size: 1.2rem;
                 }
             }
         }
@@ -218,7 +255,7 @@
         }
         .product_container {
             width: 80%;
-            margin: 100px auto;
+            margin: 50px auto;
             .product_image {
                 width: 400px;
                 height: 400px;
@@ -227,10 +264,10 @@
             .product_container-right {
                 margin: 0 auto;
                 .product_title {
-                    font-size: 1.5rem;
+                    font-size: 1.8rem;
                 }
                 .product_text {
-                    font-size: 1rem;
+                    font-size: 1.2rem;
                     margin: auto 80px;
                 }
             }

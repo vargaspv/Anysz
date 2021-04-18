@@ -15,6 +15,8 @@ function MyApp({ Component, pageProps, router }) {
         <>
             <Head>
                 <meta name="description" content="Ana Luisa Vargas, simple web de presentacion."></meta>
+                <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1
+                0, minimum-scale=1.0" />
                 <link rel="icon" href="/logo.png"   />
                 <title>Anysz</title>
             </Head>
