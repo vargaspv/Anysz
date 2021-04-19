@@ -189,40 +189,8 @@
                 position: absolute;
                 top: 0;
                 right: 0;
-                width: 1400px;
+                width: 100%;
                 z-index: -99;
-            }
-        }
-        .rrss {
-            color: red;
-            z-index: 99;
-            position: absolute;
-            bottom: 100px;
-            left: 150px;
-            p {
-                color: $black;
-                font-size: 1.5rem;
-            }
-            ul {
-                .rrss__container {
-                    li {
-                        margin: 10px;
-                        padding: 0 10px;
-                        a {
-                            text-decoration: none;
-                            letter-spacing: .4rem;
-                            color: rgb(73, 73, 73);
-                            font-weight: bold;
-                        }
-                    }
-                    .icon {
-                        // display: none;
-                    }
-                    li:hover {
-                        background: $bg-grayBold;
-                        transition: 1;
-                    }
-                }
             }
         }
         .services__container {
@@ -256,10 +224,6 @@
                 }
             }
         }
-        .rrss {
-            position: absolute;
-            bottom: 40px;
-        }
         .product_container {
             width: 80%;
             margin: 50px auto;
@@ -277,6 +241,49 @@
                     font-size: 1.2rem;
                     margin: auto 80px;
                 }
+            }
+        }
+        .rrss {
+            color: red;
+            z-index: 99;
+            position: absolute;
+            bottom: 5%;
+            left: 12%;
+            p {
+                color: $black;
+                font-size: 1.5rem;
+            }
+            ul {
+                .rrss__container {
+                    li {
+                        margin: 10px;
+                        padding: 0 5px;
+                        a {
+                            text-decoration: none;
+                            letter-spacing: .4rem;
+                            color: rgb(73, 73, 73);
+                            font-weight: bold;
+                        }
+                    }
+                    .icon {
+                        // display: none;
+                    }
+                    li:hover {
+                        background: $bg-grayBold;
+                        transition: 1;
+                    }
+                }
+            }
+        }
+        .footer {
+            position: absolute;
+            bottom: 1%;
+            left: 10%;
+            width: 80%;
+            text-align: center;
+            color: rgba(31, 31, 31, 0.733);
+            .footer__container {
+                font-size: .8rem;
             }
         }
     }
