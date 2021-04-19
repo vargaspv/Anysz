@@ -27,7 +27,6 @@ export default function Product() {
                             <p className="product_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus soluta libero reiciendis autem cumque, hic voluptate nobis. Animi, illo velit?</p>
                     </motion.div>
                 </Link>
-            
         </Layout>
     )
 }

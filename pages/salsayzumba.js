@@ -1,5 +1,7 @@
 import Link from "next/link";
 import Layout from '../components/Layout';
+import Footer from '../components/Footer';
+import RRSS from '../components/RRSS';
 import { motion } from 'framer-motion';
 
 const transition = { duration: 0.6, ease: [0.43, 0.13, .023, 0.96]};
