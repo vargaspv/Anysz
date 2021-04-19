@@ -23,13 +23,21 @@ const variants = {
 
 const Navbar = () => (
     <>
-        <nav className="navbar navbar-expand-lg navbar-light bg-transparent">
+        <nav className="navbar fixed-top navbar-expand-lg navbar-light bg-transparent p-md-3">
             <div className="container">
                 <a className="navbar-brand" href="/">ANYSZ</a>
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
+                <button 
+                    type="button" 
+                    class="navbar-toggler" 
+                    data-bs-toggle="collapse" 
+                    data-bs-target="#navbarNav" 
+                    aria-controls="navbarNav" 
+                    aria-expanded="false" 
+                    aria-label="Toggle navigation">
+                <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse nav__izq" id="navbarNav">
+                    <div className="mx-auto"></div>
                     <ul className="nav justify-content-end ml-auto">
                         <li className="nav-item">
                             <Link href="/services">
@@ -45,37 +53,6 @@ const Navbar = () => (
                 </div>
             </div>
         </nav>
-        
-        
-        
-        {/* <motion.nav classNameName="nav"
-            exit={{ opacity: 0 }}
-            initial="hidden"
-            animate="visible"
-            variants={variants}>
-            <div classNameName="nav__logo">
-                <Link href="/">
-                    <a>Anysz</a>
-                </Link>
-            </div>
-            <div classNameName="nav__izq">
-                <ul>
-                    <li>
-                        <Link href="/services">
-                            <a>Servicios</a>
-                        </Link>
-                    </li>
-                    <li>
-                        <Link href="/about">
-                            <a>Sobre Mi</a>
-                        </Link>
-                    </li>
-                </ul>
-            </div>
-        </motion.nav>
-            <nav classNameName="nav__icon">
-                <FontAwesomeIcon icon={faBars} classNameName="icon"></FontAwesomeIcon>
-            </nav> */}
     </>
 )
 
