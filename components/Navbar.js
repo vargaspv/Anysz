@@ -28,7 +28,7 @@ const Navbar = () => (
                 <a className="navbar-brand" href="/">ANYSZ</a>
                 <button 
                     type="button" 
-                    class="navbar-toggler" 
+                    className="navbar-toggler" 
                     data-bs-toggle="collapse" 
                     data-bs-target="#navbarNav" 
                     aria-controls="navbarNav" 
