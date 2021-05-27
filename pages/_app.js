@@ -9,7 +9,6 @@ import { config } from "@fortawesome/fontawesome-svg-core";
 config.autoAddCss = false; // Tell Font Awesome to skip adding the CSS automatically since it's being imported above
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/js/dist/collapse'
 
 function MyApp({ Component, pageProps, router }) {
     return (
